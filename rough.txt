@@ -1,0 +1,241 @@
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+
+  .formcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 60%;
+    
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 350px;
+    left: 60px;
+    border-radius: 10px;
+    padding: 25px;
+    opacity: 0.7;
+    display: block;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+border: none;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+.btn:hover{
+    background: white;
+    color: orange;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons i{
+   color: white;
+   font-size: 30px;
+   padding-left: 14px;
+   padding-top: 5px; 
+   transition: .3s ease;
+}
+.icons i:hover{
+    color: orange;
+}
+/*Registration form*/
+
+.form2{
+    width: 250px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.804);
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 99;
+   
+}
+.form2 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form2 input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form2 input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+border: none;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+.btn:hover{
+    background: white;
+    color: orange;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form2 .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form2 .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons i{
+   color: white;
+   font-size: 30px;
+   padding-left: 14px;
+   padding-top: 5px; 
+   transition: .3s ease;
+}
+.icons i:hover{
+    color: orange;
+}
+
+ <div class="formcontainer">
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btn"><a href="#">Login</a></button>
+                    <p class="link">Don't have an account<br>
+                        <a href="#">Sign up </a>here
+                    </p>
+                    <p class="liw">Log in With</p>
+    
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="form2" id="form2">
+                    <h2>Register Here</h2>
+                    <input type="username" name="username" placeholder="Enter Username Here">
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btn"><a href="#">Create</a></button>
+                    <p class="link">Already have an account<br>
+                        <a href="#" id="loginLink">Login Here </a>here
+                    </p>
+                    <p class="liw">Log in With</p>
+    
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+           
+          
